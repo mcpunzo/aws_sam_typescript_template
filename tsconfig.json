@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2017",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./built",
+    "sourceMap": true
+  },
+  "include": ["handlers/**/*", "handlers"],
+  "exclude": ["node_modules", "events", "tests", "**/*.spec.ts"]
+}
