@@ -1,5 +1,5 @@
 {
-  "name": "aws_sam_typescript_template",
+  "name": "aws-sam-typescript-template",
   "version": "1.0.0",
   "description": "Simple code template to build AWS SAM applications with Typescript",
   "main": "app.js",
@@ -10,10 +10,10 @@
     "test": "jest --config=jest.config.test.js",
     "integ-test": "jest --config=jest.config.integ.test.js",
     "start-local": "sam local start-api -t template.yaml",
-    "compile": "rm -rf ./built && tsc",
+    "compile": "tsc --build --clean && tsc",
     "build": "sam build",
     "compile_and_build": "npm run compile && npm run build",
-    "deploy": "cross-var sam deploy --stack-name $npm_package_name-stack --resolve-s3 --capabilities CAPABILITY_IAM",
+    "deploy": "cross-var sam deploy --resolve-s3 --capabilities CAPABILITY_IAM --stack-name $npm_package_name-stack",
     "sync": "cross-var sam sync --stack-name $npm_package_name-stack",
     "delete": "cross-var sam delete --stack-name $npm_package_name-stack"
   },

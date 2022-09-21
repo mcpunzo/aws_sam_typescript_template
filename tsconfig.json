@@ -6,7 +6,7 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "outDir": "./built",
-    "sourceMap": true
+    "sourceMap": false
   },
   "include": ["handlers/**/*", "handlers"],
   "exclude": ["node_modules", "events", "tests", "**/*.spec.ts"]

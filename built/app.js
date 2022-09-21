@@ -9,4 +9,3 @@ const lambdaHandler = async (event) => {
     };
 };
 exports.lambdaHandler = lambdaHandler;
-//# sourceMappingURL=app.js.map
