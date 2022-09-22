@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple code template to build AWS SAM applications with Typescript",
   "main": "app.js",
-  "repository": "",
+  "repository": "https://github.com/mcpunzo/aws_sam_typescript_template",
   "author": "mcpunzo",
   "license": "MIT",
   "scripts": {
