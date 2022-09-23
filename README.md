@@ -63,6 +63,6 @@ You can find more information and examples about filtering Lambda function logs 
 To delete the application that you created, use following:
 
 ```bash
-$npm run delete
+$ npm run delete
 ```
 
